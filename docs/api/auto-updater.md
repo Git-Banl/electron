@@ -131,6 +131,15 @@ closed.
 as a successfully downloaded update will always be applied the next time the
 application starts.
 
+## Other Options
+
+The `autoUpdater` object has the following options:
+
+### `updateConfigPath`
+
+When you're in a development environment, You can specify the current software info.It default to `app-update.yml` in `eletron.app.getPath('userData')`
+
+
 [squirrel-mac]: https://github.com/Squirrel/Squirrel.Mac
 [server-support]: https://github.com/Squirrel/Squirrel.Mac#server-support
 [squirrel-windows]: https://github.com/Squirrel/Squirrel.Windows
